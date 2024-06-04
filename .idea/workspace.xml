@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding Basic file&quot;">
+      <change afterPath="$PROJECT_DIR$/Basic/LaunchApp_Programmatically.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/LaunchApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/LaunchApp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +48,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.LaunchApp.executor": "Run",
+    "Python.LaunchApp_Programmatically.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dawid.Chec\PycharmProjects\Real_Device_Auto_Project\Basic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.LaunchApp_Programmatically">
     <configuration name="LaunchApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Real_Device_Auto_Project" />
       <option name="ENV_FILES" value="" />
@@ -74,8 +82,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="LaunchApp_Programmatically" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Real_Device_Auto_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/LaunchApp_Programmatically.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LaunchApp_Programmatically" />
         <item itemvalue="Python.LaunchApp" />
       </list>
     </recent_temporary>
@@ -112,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717499037905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Adding Basic file&quot;">
+      <option name="closed" value="true" />
+      <created>1717504296029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717504296029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
