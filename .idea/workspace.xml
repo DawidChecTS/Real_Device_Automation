@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding ByClassName file&quot;" />
+    <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding ByClassName file&quot;">
+      <change afterPath="$PROJECT_DIR$/Waits/ExplicitWaitEx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Waits/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic/LaunchApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/LaunchApp.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +54,7 @@
     "Python.ByIndex (1).executor": "Run",
     "Python.ByTextValue.executor": "Run",
     "Python.ByXpath.executor": "Run",
+    "Python.ExplicitWaitEx.executor": "Run",
     "Python.FindElementsMethod.executor": "Run",
     "Python.LaunchApp.executor": "Run",
     "Python.LaunchApp_Programmatically.executor": "Run",
@@ -63,29 +69,7 @@
       <recent name="C:\Users\Dawid.Chec\PycharmProjects\Real_Device_Auto_Project\Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ByXpath">
-    <configuration name="ByIndex (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Real_Device_Auto_Project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/locators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/locators/ByIndex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ExplicitWaitEx">
     <configuration name="ByTextValue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Real_Device_Auto_Project" />
       <option name="ENV_FILES" value="" />
@@ -122,6 +106,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/locators/ByXpath.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExplicitWaitEx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Real_Device_Auto_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Waits" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Waits/ExplicitWaitEx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ExplicitWaitEx" />
         <item itemvalue="Python.ByXpath" />
         <item itemvalue="Python.FindElementsMethod" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.ByTextValue" />
-        <item itemvalue="Python.ByIndex (1)" />
       </list>
     </recent_temporary>
   </component>

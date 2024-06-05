@@ -1,9 +1,8 @@
 from appium import webdriver
-import time
 
-from appium.webdriver.common.appiumby import AppiumBy
 from appium.options.android import UiAutomator2Options
-
+from selenium.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
+from selenium.webdriver.support.wait import WebDriverWait
 
 """
 Part 1:
@@ -30,6 +29,8 @@ and Port number in the form of url to connect to the server and "desired_caps" d
 # Part 2 "Options and Webdriver object"
 options = UiAutomator2Options().load_capabilities(desired_caps)
 driver = webdriver.Remote('http://127.0.0.1:4723', options=options,direct_connection=True)
+# Creating webdriver wait object
+wait = WebDriverWait(driver,10,poll_frequency=1,ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException])
 
 # Step 3 "Action on the App"
 #ele_id = driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/EnterValue")
