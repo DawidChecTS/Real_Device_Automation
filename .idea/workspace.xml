@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding ByClassName file&quot;">
-      <change afterPath="$PROJECT_DIR$/locators/ByDescription.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locators/ByXpath.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,25 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.BYIndex.executor": "Run",
-    "Python.ByClassName.executor": "Run",
-    "Python.ByDescription.executor": "Run",
-    "Python.ByTextValue.executor": "Run",
-    "Python.LaunchApp.executor": "Run",
-    "Python.LaunchApp_Programmatically.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.BYIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByClassName.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByDescription.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByTextValue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByXpath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LaunchApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LaunchApp_Programmatically.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dawid.Chec\PycharmProjects\Real_Device_Auto_Project\Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ByDescription">
+  <component name="RunManager" selected="Python.ByXpath">
     <configuration name="ByClassName" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Real_Device_Auto_Project" />
       <option name="ENV_FILES" value="" />
@@ -151,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LaunchApp_Programmatically" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ByXpath" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Real_Device_Auto_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +161,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/locators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic/LaunchApp_Programmatically.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/locators/ByXpath.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ByXpath" />
         <item itemvalue="Python.ByDescription" />
         <item itemvalue="Python.ByTextValue" />
         <item itemvalue="Python.ByClassName" />
         <item itemvalue="Python.ByIndex" />
-        <item itemvalue="Python.LaunchApp_Programmatically" />
       </list>
     </recent_temporary>
   </component>
