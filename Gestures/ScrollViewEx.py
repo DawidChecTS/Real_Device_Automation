@@ -11,6 +11,7 @@ ScrollViewButton.click()
 Button12 = wait.until(lambda x: x.find_element(AppiumBy.ANDROID_UIAUTOMATOR,
                                                'new UiScrollable(new UiSelector()).scrollIntoView(text("BUTTON12"))'))
 Button12.click()
+
 AlertPopUp_Yes = driver.find_element(AppiumBy.XPATH, '//android.widget.Button[@resource-id="android:id/button1"]')
 AlertPopUp_Yes.click()
 
