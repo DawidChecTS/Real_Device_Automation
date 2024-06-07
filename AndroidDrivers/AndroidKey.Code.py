@@ -4,7 +4,6 @@ from appium.webdriver.common.appiumby import AppiumBy
 
 from Basic.LaunchApp import driver
 
-
 EnterSomeValue = driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/EnterValue")
 EnterSomeValue.click()
 
