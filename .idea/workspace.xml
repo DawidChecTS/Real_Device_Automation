@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding ByClassName file&quot;">
-      <change afterPath="$PROJECT_DIR$/ElementActions/ElementActionsEx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElementActions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestures/ScrollViewEx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestures/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidDrivers/AndroidKey.Code.py" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidDrivers/AndroidKey.Code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic/LaunchApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/LaunchApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElementProperties/ElementProperties.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementProperties/ElementProperties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElementActions/ElementActionsEx.py" beforeDir="false" afterPath="$PROJECT_DIR$/ElementActions/ElementActionsEx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Waits/ExplicitWaitEx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Waits/ExplicitWaitEx.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,34 +47,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.AndroidKey.Code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BYIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ByClassName.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ByDescription.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ByIndex (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.ByTextValue.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ByXpath.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DriverMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ElementActionsEx.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ElementProperties.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ExplicitWaitEx.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FindElementsMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LaunchApp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LaunchApp_Programmatically.executor&quot;: &quot;Run&quot;,
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AndroidKey.Code.executor": "Run",
+    "Python.BYIndex.executor": "Run",
+    "Python.ByClassName.executor": "Run",
+    "Python.ByDescription.executor": "Run",
+    "Python.ByIndex (1).executor": "Run",
+    "Python.ByTextValue.executor": "Run",
+    "Python.ByXpath.executor": "Run",
+    "Python.DriverMethods.executor": "Run",
+    "Python.ElementActionsEx.executor": "Run",
+    "Python.ElementProperties.executor": "Run",
+    "Python.ExplicitWaitEx.executor": "Run",
+    "Python.FindElementsMethod.executor": "Run",
+    "Python.LaunchApp.executor": "Run",
+    "Python.LaunchApp_Programmatically.executor": "Run",
+    "Python.ScrollViewEx.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dawid.Chec\PycharmProjects\Real_Device_Auto_Project\Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ElementActionsEx">
+  <component name="RunManager" selected="Python.ScrollViewEx">
     <configuration name="AndroidKey.Code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Real_Device_Auto_Project" />
       <option name="ENV_FILES" value="" />
@@ -164,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ExplicitWaitEx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ScrollViewEx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Real_Device_Auto_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,11 +173,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Waits" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gestures" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Waits/ExplicitWaitEx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gestures/ScrollViewEx.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ScrollViewEx" />
         <item itemvalue="Python.ElementActionsEx" />
         <item itemvalue="Python.ElementProperties" />
         <item itemvalue="Python.AndroidKey.Code" />
         <item itemvalue="Python.DriverMethods" />
-        <item itemvalue="Python.ExplicitWaitEx" />
       </list>
     </recent_temporary>
   </component>
