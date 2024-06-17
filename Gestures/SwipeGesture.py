@@ -7,7 +7,8 @@ from Basic.LaunchApp import driver, wait
 
 #wait until Tab Activity button is displayed
 TabActivity = wait.until(lambda x: x.find_element(AppiumBy.ANDROID_UIAUTOMATOR,
-                                                  'new UiScrollable(new UiSelector()).scrollIntoView(text("TAB ACTIVITY"))'))
+                                                  'new UiScrollable(new UiSelector()).scrollIntoView(text("TAB '
+                                                  'ACTIVITY"))'))
 TabActivity.click()
 
 #Swiping from home to sport
