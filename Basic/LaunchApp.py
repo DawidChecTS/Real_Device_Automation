@@ -3,6 +3,7 @@ from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from selenium.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.support.wait import WebDriverWait
 
 """
@@ -38,6 +39,9 @@ wait = WebDriverWait(driver, 10, poll_frequency=1,
 
 #Creating actions object for ex. long click
 action = ActionChains(driver)
+
+#Creating advanced_actions for ex. move to location method
+advanced_actions = ActionBuilder(driver)
 
 # Step 3 "Action on the App"
 #ele_id = driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/EnterValue")
