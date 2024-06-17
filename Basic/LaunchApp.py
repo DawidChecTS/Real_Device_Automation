@@ -1,6 +1,7 @@
 from appium import webdriver
 
 from appium.options.android import UiAutomator2Options
+from appium.webdriver.common.touch_action import TouchAction
 from selenium.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
@@ -42,6 +43,8 @@ action = ActionChains(driver)
 
 #Creating advanced_actions for ex. move to location method
 advanced_actions = ActionBuilder(driver)
+
+actions = TouchAction(driver)
 
 # Step 3 "Action on the App"
 #ele_id = driver.find_element(AppiumBy.ID,"com.code2lead.kwad:id/EnterValue")
