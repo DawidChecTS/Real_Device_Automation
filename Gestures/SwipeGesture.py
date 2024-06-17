@@ -1,8 +1,6 @@
 import time
 
 from appium.webdriver.common.appiumby import AppiumBy
-from Basic.LaunchApp import actions, action
-
 from Basic.LaunchApp import driver, wait
 
 #wait until Tab Activity button is displayed
