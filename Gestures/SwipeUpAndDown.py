@@ -23,3 +23,4 @@ driver.swipe(550, 260,550, 2200, 1000)
 
 time.sleep(2)
 driver.quit()
+

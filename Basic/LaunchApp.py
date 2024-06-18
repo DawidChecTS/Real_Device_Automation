@@ -12,7 +12,7 @@ Part 1:
 Create a Dictionary variable "desired_caps = {}" and assign Appium Desired Capabilities to it,
 in the form of Key and value pair.
 """
-
+#desired capabilities for a native application
 desired_caps = {}  #Dictionary Variable and assigning all Desired Capabilities to it
 desired_caps['platformName'] = 'Android'
 desired_caps['automationName'] = 'UiAutomator2'
@@ -22,6 +22,15 @@ desired_caps['app'] = 'C:/Users/Dawid.Chec/Downloads/Android_Demo_App.apk'
 desired_caps['appPackage'] = 'com.code2lead.kwad'
 desired_caps['appActivity'] = 'com.code2lead.kwad.MainActivity'
 
+#desired capabilities for hybrid application
+desired_hybrid_caps = {}  #Dictionary Variable and assigning all Desired Capabilities to it
+desired_caps['platformName'] = 'Android'
+desired_caps['automationName'] = 'UiAutomator2'
+desired_caps['platformVersion'] = '14'
+desired_caps['deviceName'] = 'SM S921B'
+desired_caps['appPackage'] = 'com.android.chrome'
+desired_caps['appActivity'] = 'com.google.android.apps.chrome.Main'
+
 """
 Part 2:
 Create the object for WebDriver class "driver" to access all the methods in WebDriver class and pass the localhost
@@ -29,9 +38,13 @@ and Port number in the form of url to connect to the server and "desired_caps" d
 """
 
 # Part 2 Creating reusable objects:
-# "Options and Webdriver object"
+# "Options and Webdriver object for Native app"
 options = UiAutomator2Options().load_capabilities(desired_caps)
 driver = webdriver.Remote('http://127.0.0.1:4723', options=options, direct_connection=True)
+
+# Options and Webdriver object for hybrid app
+hybrid_options = UiAutomator2Options().load_capabilities(desired_hybrid_caps)
+hybrid_driver = webdriver.Remote('http://127.0.0.1:4723', options=hybrid_options, direct_connection=True)
 
 # Creating webdriver wait object
 wait = WebDriverWait(driver, 10, poll_frequency=1,
