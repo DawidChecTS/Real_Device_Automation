@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding ByClassName file&quot;">
+      <change afterPath="$PROJECT_DIR$/iOSAutomation/iOS_Locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
