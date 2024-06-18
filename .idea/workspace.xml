@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding ByClassName file&quot;">
-      <change afterPath="$PROJECT_DIR$/iOSAutomation/iOS_Locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSAutomation/iOS_Scroll_Gesture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +80,8 @@
       <recent name="C:\Users\Dawid.Chec\PycharmProjects\Real_Device_Auto_Project\Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HybridAppAutomation (1)">
-    <configuration name="DragAndDrop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.DriverMethods">
+    <configuration name="DriverMethods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Real_Device_Auto_Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gestures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AndroidDrivers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gestures/DragAndDrop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AndroidDrivers/DriverMethods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DriverMethods" />
         <item itemvalue="Python.HybridAppAutomation (1)" />
         <item itemvalue="Python.HybridAppAutomation" />
         <item itemvalue="Python.SwipeUpAndDown" />
         <item itemvalue="Python.SwipeGesture" />
-        <item itemvalue="Python.DragAndDrop" />
       </list>
     </recent_temporary>
   </component>
