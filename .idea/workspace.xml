@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15fbe5a-0b04-4ecc-b022-bf2d5458cc7e" name="Changes" comment="&quot;Adding ByClassName file&quot;">
-      <change afterPath="$PROJECT_DIR$/iOSAutomation/iOS_Scroll_Gesture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSAutomation/ElementProperties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,36 +44,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AndroidKey.Code.executor": "Run",
-    "Python.BYIndex.executor": "Run",
-    "Python.ByClassName.executor": "Run",
-    "Python.ByDescription.executor": "Run",
-    "Python.ByIndex (1).executor": "Run",
-    "Python.ByTextValue.executor": "Run",
-    "Python.ByXpath.executor": "Run",
-    "Python.DragAndDrop.executor": "Run",
-    "Python.DriverMethods.executor": "Run",
-    "Python.ElementActionsEx.executor": "Run",
-    "Python.ElementProperties.executor": "Run",
-    "Python.ExplicitWaitEx.executor": "Run",
-    "Python.FindElementsMethod.executor": "Run",
-    "Python.HybridAppAutomation (1).executor": "Run",
-    "Python.HybridAppAutomation.executor": "Run",
-    "Python.LaunchApp.executor": "Run",
-    "Python.LaunchApp_Programmatically.executor": "Run",
-    "Python.LongClickEx.executor": "Run",
-    "Python.ScrollViewEx.executor": "Run",
-    "Python.SwipeGesture.executor": "Run",
-    "Python.SwipeUpAndDown.executor": "Run",
-    "Python.TapEx.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AndroidKey.Code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BYIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByClassName.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByDescription.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByIndex (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByTextValue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ByXpath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DriverMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ElementActionsEx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ElementProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExplicitWaitEx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindElementsMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HybridAppAutomation (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.HybridAppAutomation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LaunchApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LaunchApp_Programmatically.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LongClickEx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ScrollViewEx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwipeGesture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwipeUpAndDown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TapEx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dawid.Chec\PycharmProjects\Real_Device_Auto_Project\HybridAppAutomation" />
